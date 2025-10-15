@@ -1642,7 +1642,7 @@
 <p><strong>Issue</strong>: ARI takes a long time to complete.</p>
 <p><strong>Solutions</strong>:
 1. Use lightweight mode:
-   <div class="highlight"><pre><span></span><code><span class="nb">Invoke-ARI</span> <span class="n">-Lite</span>
+   <div class="highlight"><pre><span></span><code><span class="nb">Invoke-ARI</span> <span class="n">-Heavy</span>
 </code></pre></div>
 2. Skip diagram generation:
    <div class="highlight"><pre><span></span><code><span class="nb">Invoke-ARI</span> <span class="n">-SkipDiagram</span>
@@ -1657,7 +1657,7 @@
 <p><strong>Issue</strong>: Out of memory errors during execution.</p>
 <p><strong>Solutions</strong>:
 1. Close other memory-intensive applications
-2. Use the <code>-Lite</code> parameter to reduce memory usage
+2. Use the <code>-Heavy</code> parameter to reduce memory usage
 3. Scope to fewer subscriptions at a time
 4. Skip diagram generation with <code>-SkipDiagram</code></p>
 <h4 id="powershell-crashes">PowerShell Crashes</h4>
